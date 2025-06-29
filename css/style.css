@@ -38,7 +38,7 @@ header {
     z-index: 1;
     font-family: 'Quicksand', sans-serif;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 header .container {
@@ -79,8 +79,8 @@ footer {
 footer img {
     display: block;
     margin: 0 auto;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
 }
 
 .game-icon {
