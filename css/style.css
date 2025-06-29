@@ -5,6 +5,7 @@ body {
     position: relative;
     overflow-x: hidden;
     background-color: #00004d;
+    user-select: none;
 }
 
 body::before {
@@ -20,12 +21,13 @@ body::before {
     background-attachment: fixed;
     z-index: -1;
     transform: scale(1.1);
+    image-rendering: pixelated;
 }
 
 .container {
-    max-width: 960px;
+    max-width: 60rem;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 header {
@@ -93,7 +95,7 @@ footer img {
 main h1 {
     font-family: 'Quicksand', sans-serif;
     font-size: 5em;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     white-space: nowrap;
     color: #cccccc; /* Light gray color for the text */
     display: inline-block;
