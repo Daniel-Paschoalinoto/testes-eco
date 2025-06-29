@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #00004d; /* A dark blue solid background */
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/images/bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    z-index: -1;
+    transform: scale(1.1); /* To hide blur edges */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.6vh; /* Reduced by 30% */
+    background-color: rgba(7, 16, 94, 0.8); /* Matching footer's background */
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Consistent, non-directional shadow */
+    font-size: 1.2em; /* Increased font size */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Make container fill header height */
+    padding: 0 20px; /* Keep horizontal padding */
+}
+
+.version {
+    font-weight: normal;
+}
+
+main {
+    padding-top: 10vh; /* Increased top padding */
+    padding-bottom: 5.6vh; /* footer height */
+    text-align: center;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5.6vh; /* Reduced by 30% */
+    background-color: rgba(7, 16, 94, 0.8); /* Light blue with transparency */
+    text-align: center;
+    padding: 0 20px; /* Consistent horizontal padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+}
+
+.game-icon {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 256px;
+    height: 256px;
+}
+
+main h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5em;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    color: #cccccc; /* Light gray color for the text */
+    display: inline-block;
+}
