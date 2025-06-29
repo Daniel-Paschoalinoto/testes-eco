@@ -1,2 +1,2 @@
 # testes-eco
-Repo do release de testes  e de front.
+Repo do release de testes  e do front.
