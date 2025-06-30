@@ -8,3 +8,22 @@ downloadBtn.addEventListener('click', (event) => {
 });
 
 document.addEventListener('contextmenu', event => event.preventDefault());
+
+// Modal functionality
+const openWarningModalBtn = document.getElementById('openWarningModal');
+const warningModal = document.getElementById('warningModal');
+const closeButton = document.querySelector('.close-button');
+
+openWarningModalBtn.addEventListener('click', () => {
+    warningModal.classList.remove('hidden');
+});
+
+closeButton.addEventListener('click', () => {
+    warningModal.classList.add('hidden');
+});
+
+warningModal.addEventListener('click', (event) => {
+    if (event.target === warningModal) {
+        warningModal.classList.add('hidden');
+    }
+});

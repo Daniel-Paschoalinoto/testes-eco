@@ -30,12 +30,31 @@
     <main>
       <div class="container">
         <img src="assets/images/ECO256.ico" alt="ECO Icon" class="game-icon" draggable="false" />
-        <a
-          href="https://github.com/Daniel-Paschoalinoto/testes-eco/releases/download/0.1.0/ECO.exe"
-          class="js-download-btn inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform active:translate-y-2 active:shadow-inner"
-          onclick="gtag('event', 'download_eco', { 'file_name': 'ECO.exe', 'file_version': '0.1.0', 'platform': 'Windows 11' });"
-        >Baixar ECO para Windows 11</a
-        >
+        <div class="flex flex-col items-center gap-4">
+          <a
+            href="https://github.com/Daniel-Paschoalinoto/testes-eco/releases/download/0.1.0/ECO.exe"
+            class="js-download-btn inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform active:translate-y-2 active:shadow-inner"
+            onclick="gtag('event', 'download_eco', { 'file_name': 'ECO.exe', 'file_version': '0.1.0', 'platform': 'Windows 11' });"
+          >Baixar ECO para Windows 11</a
+          >
+          <button id="openWarningModal" class="warning-btn inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-black bg-yellow-400 hover:bg-yellow-500 md:py-4 md:text-lg md:px-10 shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform active:translate-y-2 active:shadow-inner">Aviso</button>
+        </div>
+      </div>
+    </main>
+
+    <div id="warningModal" class="modal-overlay hidden">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Atenção!</h2>
+        <p>Ao baixar e executar o instalador do ECO - Fragmento do Amanhã (ECO.exe), o Windows pode exibir uma mensagem como "O Windows protegeu seu computador" ou "Editor desconhecido".</p>
+        <p><strong>Não se preocupe!</strong> Isso acontece porque o instalador é um projeto independente, não assinado por uma grande empresa (certificados de assinatura de código são muito caros para projetos de portfólio como este!).</p>
+        <p>Para prosseguir com a instalação:</p>
+        <ol>
+          <li>Clique em <strong>"Mais informações"</strong>.</li>
+          <li>Em seguida, clique em <strong>"Executar assim mesmo"</strong></li>
+        </ol>
+        Este software foi desenvolvido por <a href="https://github.com/Daniel-Paschoalinoto" target="_blank"><strong>Daniel Paschoalinoto</strong></a> e é totalmente seguro. Agradeço sua compreensão!</p>
+      </div>
       </div>
     </main>
 
