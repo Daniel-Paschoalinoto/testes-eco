@@ -59,13 +59,13 @@ header .container {
 }
 
 main {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-top: 5vh;
+  padding: 10vh 1rem 8vh 1rem;
   box-sizing: border-box;
   text-align: center;
   background: transparent;
@@ -76,6 +76,11 @@ main {
   height: 256px;
   user-select: none;
   pointer-events: none;
+  margin-bottom: 1rem;
+}
+
+.download-container {
+  margin-bottom: 2rem;
 }
 
 .js-download-btn {
@@ -103,7 +108,7 @@ main {
 
 .video-container {
   width: 90vw;
-  max-width: 720px;
+  max-width: 560px;
   aspect-ratio: 16 / 9;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
