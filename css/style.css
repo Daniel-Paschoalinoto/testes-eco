@@ -59,13 +59,13 @@ header .container {
 }
 
 main {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 10vh 1rem 8vh 1rem;
+  margin-top: 5vh;
   box-sizing: border-box;
   text-align: center;
   background: transparent;
@@ -83,6 +83,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 1rem 2.5rem;
+  margin-bottom: 5vh;
   font-size: 1.125rem;
   font-weight: 600;
   color: white;
@@ -102,7 +103,7 @@ main {
 
 .video-container {
   width: 90vw;
-  max-width: 560px;
+  max-width: 720px;
   aspect-ratio: 16 / 9;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   border-radius: 10px;
