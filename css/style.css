@@ -65,7 +65,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 10vh 1rem 8vh 1rem;
+  padding: 10vh 0 8vh 0,
   box-sizing: border-box;
   text-align: center;
   background: transparent;
@@ -107,7 +107,7 @@ main {
 }
 
 .video-container {
-  width: 90vw;
+  width: 100%;
   max-width: 560px;
   aspect-ratio: 16 / 9;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
