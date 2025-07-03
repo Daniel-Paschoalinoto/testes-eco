@@ -65,7 +65,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding: 10vh 0 8vh 0,
+  padding: 10vh 0 8vh 0;
   box-sizing: border-box;
   text-align: center;
   background: transparent;
