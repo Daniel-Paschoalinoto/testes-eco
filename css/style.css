@@ -76,11 +76,6 @@ main {
   height: 256px;
   user-select: none;
   pointer-events: none;
-  margin-bottom: 1rem;
-}
-
-.download-container {
-  margin-bottom: 2rem;
 }
 
 .js-download-btn {
