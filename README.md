@@ -1,2 +1,2 @@
 # testes-eco
-Repo do release de testes e do front.
+Front antigo de downloads para testes, redireciona para o [oficial](https://daniel-paschoalinoto.github.io/eco-fragmento-do-amanha/).
